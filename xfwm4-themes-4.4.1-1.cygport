@@ -1,0 +1,8 @@
+inherit xfce4
+
+DESCRIPTION="Xfwm4 additional themes"
+
+src_compile() {
+	cd ${B}
+	xfce4_compile
+}
