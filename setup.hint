@@ -1,4 +1,3 @@
-category: Xfce
-requires: xfwm4
+category: X11
 sdesc: "Xfce4 window manager themes"
 ldesc: "Additional themes for the Xfce4 window manager"
