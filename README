@@ -3,7 +3,7 @@ xfwm4-themes
 Additional themes for the Xfce4 window manager
 
 Runtime requirements:
-  xfwm4-4.5.99.1-1
+  xfwm4-4.6.0-1
 
 Build requirements:
   cygport-0.4.3-1
@@ -20,27 +20,27 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfwm4-themes-4.5.99.1-X-src.tar.bz2
+  unpack xfwm4-themes-4.6.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfwm4-themes-4.5.99.1-X.cygport all
+  cygport ./xfwm4-themes-4.6.0-X.cygport all
 
 This will create:
-  /usr/src/xfwm4-themes-4.5.99.1-X-src.tar.bz2
-  /usr/src/xfwm4-themes-4.5.99.1-X.tar.bz2
+  /usr/src/xfwm4-themes-4.6.0-X-src.tar.bz2
+  /usr/src/xfwm4-themes-4.6.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/xfwm4-themes-4.5.99.1/AUTHORS
-  /usr/share/doc/xfwm4-themes-4.5.99.1/COPYING
-  /usr/share/doc/xfwm4-themes-4.5.99.1/ChangeLog
-  /usr/share/doc/xfwm4-themes-4.5.99.1/INSTALL
-  /usr/share/doc/xfwm4-themes-4.5.99.1/NEWS
-  /usr/share/doc/xfwm4-themes-4.5.99.1/README
-  /usr/share/doc/xfwm4-themes-4.5.99.1/TODO
+  /usr/share/doc/xfwm4-themes-4.6.0/AUTHORS
+  /usr/share/doc/xfwm4-themes-4.6.0/COPYING
+  /usr/share/doc/xfwm4-themes-4.6.0/ChangeLog
+  /usr/share/doc/xfwm4-themes-4.6.0/INSTALL
+  /usr/share/doc/xfwm4-themes-4.6.0/NEWS
+  /usr/share/doc/xfwm4-themes-4.6.0/README
+  /usr/share/doc/xfwm4-themes-4.6.0/TODO
   /usr/share/themes/Adept/xfwm4/*
   /usr/share/themes/Agua/xfwm4/*
   /usr/share/themes/Agualemon/xfwm4/*
@@ -128,6 +128,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 4.6.0-1 -----
+Version bump.
 
 ----- version 4.5.99.1-1 -----
 Version bump for 4.6-rc1.
