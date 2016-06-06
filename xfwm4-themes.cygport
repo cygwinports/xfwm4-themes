@@ -1,0 +1,15 @@
+inherit xfce4
+
+NAME="xfwm4-themes"
+VERSION=4.10.0
+RELEASE=1
+CATEGORY="Xfce"
+SUMMARY="Xfce4 window manager themes"
+DESCRIPTION="Additional themes for the Xfce4 window manager"
+
+ARCH=noarch
+
+src_compile() {
+	cd ${B}
+	xfce4_compile
+}
